@@ -30,7 +30,23 @@ print(last_letters)
 print('P' + last_letters)  # String concatenation. 
 
 x = 'Hello World'
+print(x.split())
 print(x + " it is beautiful outside")
+
+letter = 'z'
+print(letter.upper())    # same for lower case. lower()
+
+
+print(letter * 10)
+
+
+#.format() method  ====>>>>
+
+print('This is a String {}'.format('INSERTED'))
+
+print('The {2} {1} {0}'.format('Sky', 'is', 'BEAUTIFUL'))
+
+
 
 
 
