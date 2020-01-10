@@ -44,7 +44,14 @@ print(letter * 10)
 
 print('This is a String {}'.format('INSERTED'))
 
+
 print('The {2} {1} {0}'.format('Sky', 'is', 'BEAUTIFUL'))
+
+print('The {b} {a} {c}'.format(a='Sky', b= 'is', c='BEAUTIFUL'))
+
+name = 'Emilio'
+print('Mi nombre es {name}')   # f strings. 
+print("Mi nombre es {}".format(name))
 
 
 
